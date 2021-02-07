@@ -1,12 +1,6 @@
 #ifndef _CE_6502_H_
 #define _CE_6502_H_
-
-namespace CE_6502
-{
     #define CE_6502_VERSION_MAJOR @CE_6502_VERSION_MAJOR@
     #define CE_6502_VERSION_MINOR @CE_6502_VERSION_MINOR@
     #define CE_6502_VERSION_PATCH @CE_6502_VERSION_PATCH@
-
-    int subone(int x);
-} // namespace name
 #endif

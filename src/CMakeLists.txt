@@ -1,4 +1,4 @@
-configure_file(CE_6502.h.in ${CMAKE_CURRENT_SOURCE_DIR}/CE_6502.h)
+configure_file(BASE.h.in ${CMAKE_CURRENT_SOURCE_DIR}/BASE.h)
 
 add_library(CE_6502 CE_6502.cpp)
 
